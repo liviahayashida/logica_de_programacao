@@ -1,0 +1,10 @@
+print("Este programa compara dois números")
+number1 = float(input("Digite seu primeiro número: "))
+number2 = float(input("Digite seu segundo número: "))
+
+print(f"{number1} > {number2}", number1>number2)
+print(f"{number1} < {number2}", number1<number2)
+print(f"{number1} == {number2}", number1==number2)
+print(f"{number1} != {number2}", number1!=number2)
+print(f"{number1} >= {number2}", number1>=number2)
+print(f"{number1} <= {number2}", number1<=number2)

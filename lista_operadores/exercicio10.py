@@ -1,0 +1,13 @@
+print("Este programa calcula algumas expressões")
+a = float(input("Digite seu primeiro número: "))
+b = float(input("Digite seu segundo número: "))
+c = float(input("Digite seu terceiro número: "))
+
+print("a + b * c= ", a + b * c)
+print("(a + b) * c= ", (a + b) * c)
+print("a ** b + c= ", a ** b + c)
+print("a ** (b + c)= ", a ** (b + c))
+print("a + b / c= ", a + b / c)
+print("(a + b) / c= ", (a + b) / c)
+print("a % b + c * 2= ", a % b + c * 2)
+print("(a + b * c) ** 2 - a= ", (a + b * c) ** 2 - a)
